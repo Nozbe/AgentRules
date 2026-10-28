@@ -1,7 +1,7 @@
 # Zasady pracy z AI w Nozbe
 
 > **Tłumaczenie — nie edytuj tego pliku bezpośrednio.**
-> Wersją źródłową jest `rules.md` (angielski). Wprowadź zmiany tam, a następnie wygeneruj ten plik ponownie.
+> Wersją źródłową jest `nozbe.md` (angielski). Wprowadź zmiany tam, a następnie wygeneruj ten plik ponownie.
 
 ## 1. Cel
 

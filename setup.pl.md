@@ -3,7 +3,7 @@
 > **Tłumaczenie — nie edytuj tego pliku bezpośrednio.**
 > Wersją źródłową jest `setup.md` (angielski). Wprowadź zmiany tam, a następnie wygeneruj ten plik ponownie.
 
-Użyj tego promptu w repozytorium, gdy Nozbe jest już połączone przez MCP. Sprawdza Nozbe, pyta mnie o to, czego brakuje, i zapisuje wynik w CLAUDE.md repozytorium, żeby `rules.md` wiedziało, z jakiego zespołu, osób i projektu korzystać.
+Użyj tego promptu w repozytorium, gdy Nozbe jest już połączone przez MCP. Sprawdza Nozbe, pyta mnie o to, czego brakuje, i zapisuje wynik w CLAUDE.md repozytorium, żeby `nozbe.md` wiedziało, z jakiego zespołu, osób i projektu korzystać.
 
 ## Kroki
 

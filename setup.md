@@ -3,7 +3,7 @@
 > **Source of truth.** This English file is the master version.
 > `setup.pl.md` is translated from it — make every change here first, then regenerate the Polish file.
 
-Use this prompt in a repository once Nozbe is connected over MCP. It checks Nozbe, asks me for what's missing and writes the result to the repository's CLAUDE.md, so that `rules.md` knows which team, people and project to use.
+Use this prompt in a repository once Nozbe is connected over MCP. It checks Nozbe, asks me for what's missing and writes the result to the repository's CLAUDE.md, so that `nozbe.md` knows which team, people and project to use.
 
 ## Steps
 

@@ -1,7 +1,7 @@
 # Rules for Working with AI in Nozbe
 
 > **Source of truth.** This English file is the master version.
-> `rules.pl.md` is translated from it — make every change here first, then regenerate the Polish file.
+> `nozbe.pl.md` is translated from it — make every change here first, then regenerate the Polish file.
 
 ## 1. Purpose
 
@@ -44,7 +44,7 @@ These rules govern how an AI assistant works with my Nozbe account, in every rep
 
 ## 6. Glossary
 
-Fixed translations of Nozbe terms, used when generating `rules.pl.md`. Names of real sections and projects stay as they are, unless the glossary gives a translation for them.
+Fixed translations of Nozbe terms, used when generating `nozbe.pl.md`. Names of real sections and projects stay as they are, unless the glossary gives a translation for them.
 
 | English | Polski |
 |---|---|
