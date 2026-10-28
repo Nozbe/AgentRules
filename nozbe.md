@@ -21,7 +21,7 @@ These rules govern how an AI assistant works with my Nozbe account, in every rep
 
 ## 3. Task Lifecycle
 
-1. **Plan goes to the task first.** Once we agree on a course of action for a task, add the plan as a comment on that task before starting the work.
+1. **Plan goes to the task first.** Once we agree on a course of action for a task, add the plan as a comment on that task before starting the work. When you work on your own (rule 5.5), don't wait for agreement: post the plan and start right away, since changes can be reverted if needed.
 2. **Never complete tasks yourself.** When work on a task is done (and committed, in a repository), move it to the **To be reviewed** section of its project (create the section if it doesn't exist yet), reassign it to the director so it shows up for my review (or to whoever asked for it; see rule 5.4), and ask whether to complete it. Complete a task only when I explicitly say so; I may have feedback.
 3. **Check Nozbe after every commit.** After each commit, fetch the project's open tasks again and report what's pending outside "To be reviewed", including new tasks and new comments.
 
@@ -38,9 +38,10 @@ These rules govern how an AI assistant works with my Nozbe account, in every rep
 ## 5. Collaboration
 
 1. **Questions go to the task.** When a task isn't finished and you need more feedback from me, add a comment to that task with your questions and mention the director.
-2. **Then work through tasks delegated to you.** After you finish something, when you refresh the project's tasks, look for tasks delegated to you (the agent) and start working on the first one. Once it's done, or you've asked for feedback on it, check for other delegated tasks and keep working on them, skipping tasks where you're still waiting for my answer.
+2. **Then work through tasks delegated to you.** After you finish something, when you refresh the project's tasks, look for tasks delegated to you (the agent) and start working on the first one right away. Once it's done, or you've asked for feedback on it, check for other delegated tasks and keep working on them without waiting for the next scheduled check, skipping tasks where you're still waiting for my answer.
 3. **Then follow up on mentions.** After that, review tasks not delegated to you that have new comments mentioning you. Read the feedback and follow its instructions.
 4. **Hand work back to whoever asked.** When someone else from the team, not the director, creates a task for you or mentions you in one, delegate the task back to them when it's done, not to the director. When a comment refers to their comment, mention them. Keep the director in the loop: whenever a comment mentions that person, or goes with delegating the task to them, add "cc" followed by a mention of the director.
+5. **Working on your own.** When CLAUDE.md says delegated tasks run on their own (for example, a scheduled check on my computer), work through them following these rules without waiting for me in the chat. Questions and answers happen only in Nozbe comments (rule 5.1).
 
 ## 6. Glossary
 

@@ -21,7 +21,7 @@ Te zasady określają, jak asystent AI pracuje z moim kontem Nozbe, w każdym re
 
 ## 3. Cykl życia zadania
 
-1. **Najpierw plan w zadaniu.** Gdy ustalimy sposób działania dla zadania, dodajesz plan jako komentarz w tym zadaniu, zanim zaczniesz pracę.
+1. **Najpierw plan w zadaniu.** Gdy ustalimy sposób działania dla zadania, dodajesz plan jako komentarz w tym zadaniu, zanim zaczniesz pracę. Gdy pracujesz samodzielnie (zasada 5.5), nie czekasz na ustalenia: publikujesz plan i od razu zaczynasz, bo zmiany w razie potrzeby można cofnąć.
 2. **Nigdy nie kończysz zadań sam.** Gdy praca nad zadaniem jest skończona (a w repozytorium także zacommitowana), przenosisz je do sekcji **Do sprawdzenia** jego projektu (tworzysz sekcję, jeśli jeszcze nie istnieje), przypisujesz je do dyrektora, żeby pojawiło się u mnie (albo do osoby, która o nie poprosiła; zobacz zasadę 5.4), i pytasz, czy je zakończyć. Kończysz zadanie tylko wtedy, gdy wyraźnie to powiem; mogę mieć uwagi.
 3. **Sprawdzasz Nozbe po każdym commicie.** Po każdym commicie pobierasz ponownie otwarte zadania projektu i raportujesz, co czeka poza „Do sprawdzenia”, w tym nowe zadania i nowe komentarze.
 
@@ -38,9 +38,10 @@ Te zasady określają, jak asystent AI pracuje z moim kontem Nozbe, w każdym re
 ## 5. Współpraca
 
 1. **Pytania trafiają do zadania.** Gdy zadanie nie jest skończone, a potrzebujesz ode mnie więcej informacji zwrotnych, dodajesz w tym zadaniu komentarz ze swoimi pytaniami i oznaczasz w nim dyrektora wzmianką.
-2. **Potem pracujesz nad zadaniami delegowanymi do ciebie.** Gdy coś skończysz i pobierasz ponownie zadania projektu, szukasz zadań delegowanych do ciebie (agenta) i zaczynasz pracę nad pierwszym z nich. Gdy je skończysz albo poprosisz w nim o informacje zwrotne, sprawdzasz, czy są inne delegowane zadania, i pracujesz nad nimi dalej, pomijając te, w których nadal czekasz na moją odpowiedź.
+2. **Potem pracujesz nad zadaniami delegowanymi do ciebie.** Gdy coś skończysz i pobierasz ponownie zadania projektu, szukasz zadań delegowanych do ciebie (agenta) i od razu zaczynasz pracę nad pierwszym z nich. Gdy je skończysz albo poprosisz w nim o informacje zwrotne, sprawdzasz, czy są inne delegowane zadania, i pracujesz nad nimi dalej, nie czekając na następne zaplanowane sprawdzenie, pomijając te, w których nadal czekasz na moją odpowiedź.
 3. **Potem odpowiadasz na wzmianki.** Następnie przeglądasz zadania, które nie są delegowane do ciebie, ale mają nowe komentarze ze wzmianką o tobie. Czytasz uwagi i postępujesz zgodnie z instrukcjami.
 4. **Oddajesz pracę temu, kto o nią poprosił.** Gdy ktoś inny z zespołu, nie dyrektor, tworzy dla ciebie zadanie albo oznacza cię w nim wzmianką, po skończeniu pracy delegujesz zadanie z powrotem do tej osoby, a nie do dyrektora. Gdy komentarz odnosi się do jej komentarza, oznaczasz wzmianką ją. Dyrektor zawsze jest na bieżąco: gdy komentarz oznacza tę osobę wzmianką albo towarzyszy delegowaniu do niej zadania, dodajesz w nim „cc” i wzmiankę o dyrektorze.
+5. **Praca samodzielna.** Gdy CLAUDE.md mówi, że delegowane zadania są wykonywane samodzielnie (na przykład przez zaplanowane sprawdzanie na moim komputerze), pracujesz nad nimi zgodnie z tymi zasadami, nie czekając na mnie w czacie. Pytania i odpowiedzi trafiają wyłącznie do komentarzy w Nozbe (zasada 5.1).
 
 ## 6. Słownik
 
