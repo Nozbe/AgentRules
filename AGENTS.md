@@ -19,6 +19,7 @@ This repository holds the rules for how AI works with Nozbe, in English and Poli
 - **Translate using the glossary.** When updating a Polish file (`rules.pl.md`, `setup.pl.md`), use the glossary at the end of `rules.md` for Nozbe terms. Section and project names stay as they are unless the glossary gives a translation (for example "To be reviewed" → „Do sprawdzenia”).
 - **Keep both files in step.** Each English file and its Polish file (`rules.md` and `rules.pl.md`, `setup.md` and `setup.pl.md`) always have the same sections, rules and numbering.
 - **General rules only.** `rules.md` holds rules that apply everywhere. Team, project and user names and IDs belong in each repository's own CLAUDE.md, not in the rules.
+- **Commit and push.** Once we've agreed on a change, commit it and push it to `main` on GitHub straight away.
 - **Mark your own additions.** When a change includes something I didn't ask for, say so, so I can remove it.
 
 ## Keeping files current
