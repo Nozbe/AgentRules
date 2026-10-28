@@ -26,4 +26,7 @@ Use this prompt in a repository once Nozbe is connected over MCP. It checks Nozb
    - Agent: @[username] (ID: [user_id])
    - Project: [project name] (https://nozbe.app/teams/[team_id]/projects/[project_id])
    ```
-7. **Confirm.** Tell me what you've set up.
+7. **Rules.** Once the Nozbe setup is done, ask me how to add the rules, `nozbe.md` from https://github.com/Nozbe/AgentRules:
+   - **Copy them.** Fetch `nozbe.md` from the repository and paste its contents into CLAUDE.md.
+   - **Reference them.** Add `@nozbe.md` to CLAUDE.md. I'll copy `nozbe.md` into the repository myself.
+8. **Confirm.** Tell me what you've set up.

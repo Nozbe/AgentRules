@@ -26,4 +26,7 @@ Użyj tego promptu w repozytorium, gdy Nozbe jest już połączone przez MCP. Sp
    - Agent: @[nazwa_użytkownika] (ID: [user_id])
    - Projekt: [nazwa projektu] (https://nozbe.app/teams/[team_id]/projects/[project_id])
    ```
-7. **Potwierdzasz.** Mówisz mi, co zostało skonfigurowane.
+7. **Zasady.** Gdy konfiguracja Nozbe jest gotowa, pytasz mnie, jak dodać zasady, czyli `nozbe.pl.md` z https://github.com/Nozbe/AgentRules:
+   - **Skopiować je.** Pobierasz `nozbe.pl.md` z repozytorium i wklejasz jego zawartość do CLAUDE.md.
+   - **Dodać odwołanie.** Dodajesz `@nozbe.pl.md` do CLAUDE.md. Sam skopiuję `nozbe.pl.md` do repozytorium.
+8. **Potwierdzasz.** Mówisz mi, co zostało skonfigurowane.
