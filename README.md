@@ -18,7 +18,7 @@ Each file has a Polish version, [`nozbe.pl.md`](nozbe.pl.md) and [`setup.pl.md`]
 3. Get the [Nozbe Desktop app](https://nozbe.com/download) for Windows or Mac and install it.
 4. Log in to your agent's account on the desktop app. Not yours. Your agent's!
 5. Go to "Settings", "Integrations" and "MCP" and enable local MCP connection.
-6. Now, open a new chat in your new or existing folder in Claude Code, where you want to work with the agent, and paste the MCP connection request.
+6. Copy the `claude mcp add …` command that Nozbe shows there. Then open Claude Code in the folder (new or existing) where you want to work with the agent and paste the command into the chat. Claude will run it and add the Nozbe connection. Start a new chat afterwards so Claude picks it up.
 7. Now copy and paste the prompt from [`setup.md`](setup.md) to set up your agent.
 8. From now on, you should be able to work with your agent directly through Nozbe. Good luck!
 
