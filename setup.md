@@ -34,7 +34,7 @@ Use this prompt in a repository once Nozbe is connected over MCP. It checks Nozb
    - Add this line to the Nozbe section of CLAUDE.md:
 
      ```markdown
-     - **Delegated tasks run on their own.** A scheduled task on the director's computer checks Nozbe every 15 minutes and works on project tasks delegated to the agent (see rule 5.5 in `nozbe.md`).
+     - **Scheduled check:** every 15 minutes on the director's computer (nozbe.md rule 5.5).
      ```
    - Tell me that the check only runs while this computer is on and Claude is open.
 

@@ -34,7 +34,7 @@ Użyj tego promptu w repozytorium, gdy Nozbe jest już połączone przez MCP. Sp
    - Dodajesz ten wiersz do sekcji Nozbe w CLAUDE.md:
 
      ```markdown
-     - **Delegowane zadania są wykonywane samodzielnie.** Zaplanowane zadanie na komputerze dyrektora co 15 minut sprawdza Nozbe i pracuje nad zadaniami projektu delegowanymi do agenta (zobacz zasadę 5.5 w `nozbe.pl.md`).
+     - **Zaplanowane sprawdzanie:** co 15 minut na komputerze dyrektora (zasada 5.5 w nozbe.pl.md).
      ```
    - Mówisz mi, że sprawdzanie działa tylko wtedy, gdy ten komputer jest włączony, a Claude otwarty.
 
