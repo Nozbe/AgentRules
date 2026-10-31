@@ -29,4 +29,25 @@ Use this prompt in a repository once Nozbe is connected over MCP. It checks Nozb
 7. **Rules.** Once the Nozbe setup is done, ask me how to add the rules, `nozbe.md` from https://github.com/Nozbe/AgentRules:
    - **Copy them.** Fetch `nozbe.md` from the repository and paste its contents into CLAUDE.md.
    - **Reference them.** Add `@nozbe.md` to CLAUDE.md. I'll copy `nozbe.md` into the repository myself.
-8. **Confirm.** Tell me what you've set up.
+8. **Scheduled check.** Ask me whether tasks delegated to the agent should run on their own (nozbe.md rule 5.5). If I say yes:
+   - Create a scheduled task in Claude on this computer named "[project name]: work on tasks delegated to the agent", running every 15 minutes, with the prompt below. Fill in the repository's full path.
+   - Add this line to the Nozbe section of CLAUDE.md:
+
+     ```markdown
+     - **Delegated tasks run on their own.** A scheduled task on the director's computer checks Nozbe every 15 minutes and works on project tasks delegated to the agent (see rule 5.5 in `nozbe.md`).
+     ```
+   - Tell me that the check only runs while this computer is on and Claude is open.
+
+   The scheduled task's prompt:
+
+   ```markdown
+   You are the agent for this repository: [repository path]. Nobody is watching this session: never stop to ask questions in chat. Questions go to Nozbe comments.
+
+   1. **One run at a time.** If `running.lock` in this task's folder exists and is less than 3 hours old, end the run. Otherwise write the current time into it, and delete it at the end of the run, also when you stop early or something fails.
+   2. **Load the rules.** Work only in the repository. Read its CLAUDE.md and `nozbe.md` in full and follow them. If it's a git repository, run `git pull` first. If Nozbe can't be reached, end the run.
+   3. **Find work.** Fetch the project's open tasks delegated to the agent, with their comments. Skip tasks where you're still waiting for an answer. If there are none, follow up on new mentions of the agent (nozbe.md rule 5.3). If there's nothing at all, end the run quietly, with no comments and no changes.
+   4. **Work on a task.** Follow nozbe.md, rules 3.1 to 3.2 and section 4: post the plan and start, ask questions in comments, do the work and commit it, then move the task to "To be reviewed" with a review checklist, and hand it back.
+   5. **Keep going.** After each task, fetch the tasks again and start on the next one right away (nozbe.md rule 5.2).
+   6. **Finish.** End with a short summary: the tasks you worked on, the commits, and the tasks waiting for answers.
+   ```
+9. **Confirm.** Tell me what you've set up.
