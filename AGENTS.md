@@ -10,6 +10,7 @@ This repository holds the rules for how AI works with Nozbe, in English and Poli
 - `setup.pl.md`: the Polish translation, generated from `setup.md`.
 - `README.md`: a short description of the repository for GitHub.
 - `LICENSE`: the repository's license.
+- `agent.png`: a 512×512 avatar for an AI agent's Nozbe profile, in Nozbe's colors.
 - `AGENTS.md`: this file, with working agreements for this repository. `CLAUDE.md` only imports it, so Claude Code loads it too.
 - Everything stays in the repository root, with no folders.
 
