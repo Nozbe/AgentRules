@@ -12,6 +12,7 @@ This repository holds the rules for how AI works with Nozbe, in English and Poli
 - `README.pl.md`: the Polish translation of `README.md`.
 - `LICENSE`: the repository's license.
 - `agent.png`: a 512×512 avatar for an AI agent's Nozbe profile, in Nozbe's colors.
+- `.gitignore`: keeps macOS `.DS_Store` files out of the repository.
 - `AGENTS.md`: this file, with working agreements for this repository. `CLAUDE.md` only imports it, so Claude Code loads it too.
 - Everything stays in the repository root, with no folders.
 
