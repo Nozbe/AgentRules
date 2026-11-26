@@ -19,7 +19,7 @@ Oba pliki są automatycznie tłumaczone z angielskich wersji źródłowych: [`no
 2. Gdy masz już konto, zaproś agenta AI do swojego zespołu. Wejdź w „Members”, kliknij „+”, żeby wybrać „Invite new member to your space”, i podaj inny adres e-mail, do którego masz dostęp, żeby potwierdzić i skonfigurować konto agenta. Otwórz konto agenta w innej sesji przeglądarki, żeby je skonfigurować. Nadaj mu nazwę i opcjonalnie awatar (czemu nie?). Możesz użyć [`agent.png`](agent.png) z tego repozytorium.
 3. Pobierz [aplikację desktopową Nozbe](https://nozbe.com/download) na Windows lub Maca i zainstaluj ją.
 4. Zaloguj się w aplikacji desktopowej na konto agenta. Nie swoje. Agenta!
-5. Wejdź w „Settings” → „Integrations” → „MCP” i włącz lokalne połączenie MCP.
+5. Wejdź w „Ustawienia” → „Integracje” → „MCP” i włącz lokalne połączenie MCP.
 6. Skopiuj polecenie `claude mcp add …`, które pokazuje tam Nozbe. Potem otwórz Claude Code w folderze (nowym lub istniejącym), w którym chcesz pracować z agentem, i wklej polecenie do czatu. Claude je uruchomi i doda połączenie z Nozbe. Następnie zacznij nowy czat, żeby Claude je wczytał.
 7. W tym nowym czacie wklej prompt z [`setup.pl.md`](setup.pl.md), żeby skonfigurować agenta.
 8. Od teraz możesz pracować z agentem bezpośrednio w Nozbe: delegować mu zadania i rozmawiać w komentarzach. Powodzenia!
