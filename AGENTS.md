@@ -17,9 +17,9 @@ This repository holds the rules for how AI works with Nozbe, in English and Poli
 
 ## Working agreements
 
-- **English first.** Make every change in the English file (`nozbe.md`, `setup.md`) first. Then update its Polish file (`nozbe.pl.md`, `setup.pl.md`) to match. Never change only the Polish file.
+- **English first.** Make every change in the English file (`nozbe.md`, `setup.md`, `README.md`) first. Then update its Polish file (`nozbe.pl.md`, `setup.pl.md`, `README.pl.md`) to match. Never change only the Polish file.
 - **Translate using the glossary.** When updating a Polish file (`nozbe.pl.md`, `setup.pl.md`), use the glossary at the end of `nozbe.md` for Nozbe terms. Section and project names stay as they are unless the glossary gives a translation (for example "To be reviewed" → „Do sprawdzenia”).
-- **Keep both files in step.** Each English file and its Polish file (`nozbe.md` and `nozbe.pl.md`, `setup.md` and `setup.pl.md`) always have the same sections, rules and numbering.
+- **Keep both files in step.** Each English file and its Polish file (`nozbe.md` and `nozbe.pl.md`, `setup.md` and `setup.pl.md`, `README.md` and `README.pl.md`) always have the same sections, rules and numbering.
 - **General rules only.** `nozbe.md` holds rules that apply everywhere. Team, project and user names and IDs belong in each repository's own CLAUDE.md, not in the rules.
 - **Commit and push.** Once we've agreed on a change, commit it and push it to `main` on GitHub straight away.
 - **Mark your own additions.** When a change includes something I didn't ask for, say so, so I can remove it.
