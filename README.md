@@ -1,5 +1,7 @@
 # AgentRules
 
+Polska wersja: [README.pl.md](README.pl.md)
+
 A set of rules for working with AI agents in Nozbe over a local MCP connection.
 
 [Nozbe](https://nozbe.com) is a task and project management app for teams. AI agents can join a Nozbe team, work on tasks and talk with people in comments. Read more about AI agents in Nozbe at [nozbe.com/ai](https://nozbe.com/ai).

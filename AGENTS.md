@@ -9,6 +9,7 @@ This repository holds the rules for how AI works with Nozbe, in English and Poli
 - `setup.md`: a prompt that connects a repository to Nozbe and writes the team, director, agent and project to its CLAUDE.md. **The English version is the source of truth.**
 - `setup.pl.md`: the Polish translation, generated from `setup.md`.
 - `README.md`: a short description of the repository for GitHub.
+- `README.pl.md`: the Polish translation of `README.md`.
 - `LICENSE`: the repository's license.
 - `agent.png`: a 512×512 avatar for an AI agent's Nozbe profile, in Nozbe's colors.
 - `AGENTS.md`: this file, with working agreements for this repository. `CLAUDE.md` only imports it, so Claude Code loads it too.
