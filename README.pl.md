@@ -24,7 +24,7 @@ Oba pliki są automatycznie tłumaczone z angielskich wersji źródłowych: [`no
 7. W tym nowym czacie wklej prompt z [`setup.pl.md`](setup.pl.md), żeby skonfigurować agenta.
 8. Od teraz możesz pracować z agentem bezpośrednio w Nozbe: delegować mu zadania i rozmawiać w komentarzach. Powodzenia!
 
-Masz pytania? Napisz do mnie, autora tego repozytorium: [Michael Sliwinski, CEO Nozbe](https://michael.team/).
+Masz pytania? Napisz do mnie, autora tego repozytorium: [Michał Śliwiński, CEO Nozbe](https://michael.team/pl/).
 
 ## Ulepszenia?
 
