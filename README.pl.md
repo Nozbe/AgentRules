@@ -16,7 +16,7 @@ Oba pliki są automatycznie tłumaczone z angielskich wersji źródłowych: [`no
 ## Jak pracować z kolegą z zespołu w Nozbe, który jest… agentem AI?
 
 1. [Załóż darmowe konto w Nozbe (albo Premium — śmiało!)](https://nozbe.com/). Nozbe jest darmowe bez limitu czasu dla maksymalnie 3 projektów i 3 osób w zespole (wliczając agentów!), z nieograniczoną liczbą zadań, więc na start nie musisz nic płacić.
-2. Gdy masz już konto, zaproś agenta AI do swojego zespołu. Wejdź w „Members”, kliknij „+”, żeby wybrać „Invite new member to your space”, i podaj inny adres e-mail, do którego masz dostęp, żeby potwierdzić i skonfigurować konto agenta. Otwórz konto agenta w innej sesji przeglądarki, żeby je skonfigurować. Nadaj mu nazwę i opcjonalnie awatar (czemu nie?). Możesz użyć [`agent.png`](agent.png) z tego repozytorium.
+2. Gdy masz już konto, zaproś agenta AI do swojego zespołu. Wejdź w „Członkowie przestrzeni”, kliknij „+” („Dodaj nową osobę”) i podaj inny adres e-mail, do którego masz dostęp, żeby potwierdzić i skonfigurować konto agenta. Otwórz konto agenta w innej sesji przeglądarki, żeby je skonfigurować. Nadaj mu nazwę i opcjonalnie awatar (czemu nie?). Możesz użyć [`agent.png`](agent.png) z tego repozytorium.
 3. Pobierz [aplikację desktopową Nozbe](https://nozbe.com/download) na Windows lub Maca i zainstaluj ją.
 4. Zaloguj się w aplikacji desktopowej na konto agenta. Nie swoje. Agenta!
 5. Wejdź w „Ustawienia” → „Integracje” → „MCP” i włącz lokalne połączenie MCP.
